@@ -223,161 +223,6 @@ padding-top: 6rem;
     margin: 2rem;
 }
 
-
-/* Media Query for Tablets and Smaller Desktops (max-width: 1200px) */
-@media (max-width: 1200px) {
-    .header-content h1 {
-        font-size: 3rem;
-        padding-top: 4rem;
-    }
-
-    .header-content p {
-        font-size: 1.8rem;
-    }
-
-    .lg-heading {
-        font-size: 3rem;
-    }
-
-    .md-heading {
-        font-size: 2rem;
-    }
-
-    .row {
-        height: auto;
-        margin-bottom: 6rem;
-    }
-
-    .row1 .img-box, .row2 .img-box, .row1 .text-box, .row2 .text-box {
-        width: 100%;
-        float: none;
-    }
-
-    .row .text-box {
-        padding: 2rem;
-    }
-
-    .box {
-        width: 100%;
-        margin-bottom: 2rem;
-    }
-
-    .features {
-        padding: 7rem 0;
-    }
-
-    .footer {
-        padding: 3rem;
-    }
-}
-
-/* Media Query for Mobile Devices (max-width: 768px) */
-@media (max-width: 768px) {
-    html {
-        font-size: 55%; /* Scale down base font size */
-    }
-
-    .header {
-        height: 80vh;
-    }
-
-    .nav-bar {
-        height: auto;
-        padding: 1rem 0;
-    }
-
-    .nav-bar .logo {
-        font-size: 3rem;
-    }
-
-    .nav-items {
-        display: block;
-        text-align: center;
-    }
-
-    .nav-item {
-        padding: 0.5rem;
-        margin: 1rem 0;
-    }
-
-    .header-content h1 {
-        font-size: 2.5rem;
-    }
-
-    .btn {
-        padding: 0.6em 1.2em;
-        font-size: 1.4rem;
-    }
-
-    .row {
-        margin-bottom: 3rem;
-    }
-
-    .box {
-        width: 100%;
-        margin-bottom: 3rem;
-    }
-
-    .box-wrapper {
-        box-shadow: none;
-    }
-
-    .links i {
-        margin: 1rem;
-        font-size: 3rem;
-    }
-}
-/* ########### media queries ################# */
-
-@media (max-width: 480px) {
-    html {
-        font-size: 50%; 
-    }
-
-    .header-content h1 {
-        font-size: 2rem;
-    }
-
-    .header-content p {
-        font-size: 1.4rem;
-    }
-
-    .btn {
-        padding: 0.4em 1rem;
-    }
-
-    .lg-heading {
-        font-size: 2.5rem;
-    }
-
-    .md-heading {
-        font-size: 1.6rem;
-    }
-
-    .footer {
-        font-size: 1.4rem;
-        padding: 2rem;
-    }
-
-    .footer p {
-        font-size: 1.2rem;
-    }
-
-    .links i {
-        font-size: 2.5rem;
-    }
-}
-
-/* ################### About Page Styling ################### */
-.about{
-    padding: 5rem 0;
-}
-.about-heading::after{
-    content: '';
-    display: block;
-    border: 3px solid #e63946;
-    width: 100%;
-}
 /* ######################### About Wrapper Styling #################### */
 .about-wrapper .left{
 float: left;
@@ -427,102 +272,19 @@ width: 50%;
     font-size: 1.8rem;
 }
 
-
-/* Media Query for Tablets and Smaller Desktops (max-width: 1200px) */
-@media (max-width: 1200px) {
-    .lg-heading {
-        font-size: 3rem;
-    }
-
-    .about-wrapper .left, .about-wrapper .right {
-        width: 100%;
-        float: none;
-        text-align: center;
-    }
-
-    .counts-item {
-        width: 50%;
-    }
-
-    .counts-item span {
-        font-size: 2.5rem;
-    }
-
-    .counts-item p {
-        font-size: 1.6rem;
-    }
-
-    .about-heading::after {
-        width: 50%;
-    }
+/* ################### About Page Styling ################### */
+.about{
+    padding: 5rem 0;
+}
+.about-heading::after{
+    content: '';
+    display: block;
+    border: 3px solid #e63946;
+    width: 100%;
 }
 
-/* Media Query for Mobile Devices (max-width: 768px) */
-@media (max-width: 768px) {
-    html {
-        font-size: 55%;
-    }
 
-    .lg-heading {
-        font-size: 2.5rem;
-    }
 
-    .about-heading::after {
-        width: 70%;
-    }
-
-    .count {
-        margin-top: 2rem;
-    }
-
-    .counts-item {
-        width: 100%;
-        margin-bottom: 2rem;
-    }
-
-    .counts-item span {
-        font-size: 2rem;
-    }
-
-    .counts-item p {
-        font-size: 1.4rem;
-    }
-
-    .about-wrapper li {
-        font-size: 1.6rem;
-    }
-}
-
-/* Media Query for Small Mobile Devices (max-width: 480px) */
-@media (max-width: 480px) {
-    html {
-        font-size: 50%;
-    }
-
-    .lg-heading {
-        font-size: 2rem;
-    }
-
-    .about-heading::after {
-        width: 90%;
-    }
-
-    .counts-item span {
-        font-size: 1.8rem;
-    }
-
-    .counts-item p {
-        font-size: 1.2rem;
-    }
-
-    .about-wrapper {
-        margin-top: 1.5rem;
-    }
-
-    .about-wrapper li {
-        font-size: 1.4rem;
-    }
-}
 
 /* ################### contact page styling ################# */
   .contact-form{
@@ -610,6 +372,263 @@ width: 100%;
     border: none;
     cursor: pointer;
 }
+/* ############ JS styling ################### */
+.scroll-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: #e63946;
+    color: white;
+    border: none;
+    padding: 1rem 1.5rem;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 50%;
+    display: none;
+}
+
+.scroll-to-top.visible {
+    display: block;
+}
+
+.scroll-to-top:hover {
+    background-color: #c03030;
+}
+
+/* Media Query for Tablets and Smaller Desktops (max-width: 1200px) */
+@media (max-width: 1200px) {
+    .header-content h1 {
+        font-size: 3rem;
+        padding-top: 4rem;
+    }
+
+    .header-content p {
+        font-size: 1.8rem;
+    }
+
+    .lg-heading {
+        font-size: 3rem;
+    }
+
+    .md-heading {
+        font-size: 2rem;
+    }
+
+    .row {
+        height: auto;
+        margin-bottom: 6rem;
+    }
+
+    .row1 .img-box, .row2 .img-box, .row1 .text-box, .row2 .text-box {
+        width: 100%;
+        float: none;
+    }
+
+    .row .text-box {
+        padding: 2rem;
+    }
+
+    .box {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .features {
+        padding: 7rem 0;
+    }
+
+    .footer {
+        padding: 3rem;
+    }
+     .lg-heading {
+        font-size: 3rem;
+    }
+
+    .about-wrapper .left, .about-wrapper .right {
+        width: 100%;
+        float: none;
+        text-align: justify;
+    }
+
+    .counts-item {
+        width: 50%;
+    }
+
+    .counts-item span {
+        font-size: 2.5rem;
+    }
+
+    .counts-item p {
+        font-size: 1.6rem;
+    }
+
+    .about-heading::after {
+        width: 50%;
+    }
+}
+
+/* Media Query for Mobile Devices (max-width: 768px) */
+@media (max-width: 768px) {
+    html {
+        font-size: 55%; /* Scale down base font size */
+    }
+
+    .header {
+        height: 80vh;
+    }
+
+    .nav-bar {
+        /* height: auto; */
+        padding: 1rem 0;
+    }
+
+    .nav-bar .logo {
+        font-size: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+    .nav-items {
+        display: block;
+        text-align: center;
+    }
+
+    .nav-item {
+        padding: 0.5rem;
+        margin: 1rem 0;
+    }
+
+    .header-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .btn {
+        padding: 0.6em 1.2em;
+        font-size: 1.4rem;
+    }
+
+    .row {
+        margin-bottom: 3rem;
+    }
+
+    .box {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .box-wrapper {
+        box-shadow: none;
+    }
+
+    .links i {
+        margin: 1rem;
+        font-size: 3rem;
+    }
+      html {
+        font-size: 55%;
+    }
+
+    .lg-heading {
+        font-size: 2.5rem;
+    }
+
+    .about-heading::after {
+        width: 70%;
+    }
+
+    .count {
+        margin-top: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .counts-item {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .counts-item span {
+        font-size: 2rem;
+    }
+
+    .counts-item p {
+        font-size: 1.4rem;
+    }
+
+    .about-wrapper li {
+        font-size: 1.6rem;
+    }
+}
+/* ########### media queries ################# */
+
+@media (max-width: 480px) {
+    html {
+        font-size: 50%; 
+    }
+
+    .header-content h1 {
+        font-size: 2rem;
+    }
+
+    .header-content p {
+        font-size: 1.4rem;
+    }
+
+    .btn {
+        padding: 0.4em 1rem;
+    }
+
+    .lg-heading {
+        font-size: 2.5rem;
+    }
+
+    .md-heading {
+        font-size: 1.6rem;
+    }
+
+    .footer {
+        font-size: 1.4rem;
+        padding: 2rem;
+    }
+
+    .footer p {
+        font-size: 1.2rem;
+    }
+
+    .links i {
+        font-size: 2.5rem;
+    }
+     html {
+        font-size: 50%;
+    }
+
+    .lg-heading {
+        font-size: 2rem;
+    }
+
+    .about-heading::after {
+        width: 90%;
+    }
+
+    .counts-item span {
+        font-size: 1.8rem;
+    }
+
+    .counts-item p {
+        font-size: 1.2rem;
+    }
+
+    .about-wrapper {
+        margin-top: 1.5rem;
+    }
+
+    .about-wrapper li {
+        font-size: 1.4rem;
+    }
+}
+
 /* Media Query for Tablets and Smaller Desktops (max-width: 1200px) */
 @media (max-width: 1200px) {
     .form-wrapper {
@@ -697,26 +716,4 @@ width: 100%;
         padding: 0.4em 2em;
         font-size: 1.4rem;
     }
-}
-/* ############ JS styling ################### */
-.scroll-to-top {
-    position: fixed;
-    bottom: 2rem;
-    right: 2rem;
-    background-color: #e63946;
-    color: white;
-    border: none;
-    padding: 1rem 1.5rem;
-    font-size: 2rem;
-    cursor: pointer;
-    border-radius: 50%;
-    display: none;
-}
-
-.scroll-to-top.visible {
-    display: block;
-}
-
-.scroll-to-top:hover {
-    background-color: #c03030;
 }
